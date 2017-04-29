@@ -1,0 +1,8 @@
+searchKeyInputBox: 
+ wait: "1"
+ type: "xpath"
+ what: "//input[@id='kw']"
+submitInputBox: 
+ wait: "1"
+ type: "id"
+ what: "su"
