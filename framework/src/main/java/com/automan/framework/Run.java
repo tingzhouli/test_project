@@ -31,17 +31,17 @@ public class Run
     	
     	
     	
-//    	try{
-//    	    WebDriver driver = new FirefoxDriver();
-//    	    Index indexPage = new Index(driver);
-//    	    indexPage.get("https://www.baidu.com");
-//    	    indexPage.type(indexPage.searchKeyInputBox, "selenium webdriver");
-//    	    indexPage.click(indexPage.submitInputBox);
-//    	    if (indexPage.isPageLoadCompleted())
-//    	    	driver.quit();
-//    	}catch(Exception e){
-//    		e.printStackTrace();
-//    	}
+    	try{
+    	    WebDriver driver = new FirefoxDriver();
+    	    Index indexPage = new Index(driver);
+    	    indexPage.get("https://www.baidu.com");
+    	    indexPage.type(indexPage.searchKeyInputBox, "selenium webdriver");
+    	    indexPage.click(indexPage.submitInputBox);
+    	    if (indexPage.isPageLoadCompleted())
+    	    	driver.quit();
+    	}catch(Exception e){
+    		e.printStackTrace();
+    	}
     	
 
     }
