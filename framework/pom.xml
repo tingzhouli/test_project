@@ -7,6 +7,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
+
+
   <name>framework</name>
   <url>http://maven.apache.org</url>
 
@@ -44,4 +46,21 @@
 	</dependency>
 	
   </dependencies>
+  
+  <build>
+  	<pluginManagement>
+	  	<plugins>
+	  		<plugin>
+	  		<groupId>org.apache.maven.plugins</groupId> 
+<artifactId>maven-compiler-plugin</artifactId>
+	  		  <configuration>
+			  	<source>1.7</source>
+			  	<target>1.7</target>
+			  </configuration>
+	  		</plugin>
+	  	</plugins>
+	  </pluginManagement>
+  </build>
+
+  
 </project>

@@ -122,7 +122,7 @@ public class BasePageTest {
 		fail("Not yet implemented");
 	}
 
-	@Ignore
+	@Test
 	public void testResizeTo() {
 		try{
 			BasePage bp = new BasePage(driver);
@@ -151,7 +151,7 @@ public class BasePageTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
+	@Ignore
 	public void testGetSingleCookie() throws Exception {
 		try{
 			BasePage bp = new BasePage(driver);
