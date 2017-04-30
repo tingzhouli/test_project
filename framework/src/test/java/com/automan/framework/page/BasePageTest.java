@@ -122,7 +122,7 @@ public class BasePageTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
+	@Ignore
 	public void testResizeTo() {
 		try{
 			BasePage bp = new BasePage(driver);
