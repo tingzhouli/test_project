@@ -38,7 +38,7 @@ public class BasePageTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
+	@Ignore
 	public void testGet() {
 		try{
 			BasePage bp = new BasePage(driver);
